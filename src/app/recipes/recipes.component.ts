@@ -9,7 +9,7 @@ import { Recipe } from './recipe.model';
 export class RecipesComponent {
   selectedRecipe: Recipe;
 
-  infoText = 'Fallback text when selectedRecipe is falsy';
+  // infoText = 'Fallback text when selectedRecipe is falsy';
 
 
 }

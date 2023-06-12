@@ -18,7 +18,7 @@ export class RecipeItemComponent implements OnInit{
     console.log(this.recipe);
       }
     
-  onSelected(){
+  onSelected(){ 
     this.recipeSelected.emit();
   }  
 
